@@ -127,7 +127,7 @@ section[data-testid="stSidebar"] .stButton>button {{
 # =========================
 try:
     # test = requests.get("http://127.0.0.1:8000/chat", params={"query": "test"})
-    test = requests.get("https://pagan-wildcard-virtual.ngrok-free.app/chat", params={"query": "test"})
+    test = requests.get("https://pagan-wildcard-virtual.ngrok-free.dev/chat", params={"query": "test"})
 
     if test.status_code == 200:
         st.success("✅ Database connected | Backend running")
@@ -212,7 +212,7 @@ if ask and user_input:
     st.session_state.messages.append(("user", user_input))
 
     # res = requests.get("http://127.0.0.1:8000/chat", params={"query": user_input})
-    res = requests.get("https://pagan-wildcard-virtual.ngrok-free.app/chat", params={"query": user_input})
+    res = requests.get("https://pagan-wildcard-virtual.ngrok-free.dev/chat", params={"query": user_input})
 
 
     if res.status_code == 200:
