@@ -1,4 +1,5 @@
 # 🚀 AI Career Assistant (RAG-Based Job Role Recommendation System)
+# dataset:https://www.kaggle.com/datasets/dhruval97/datasetresume/data
 
 ## 📌 Overview
 AI-powered chatbot that suggests **job roles based on user skills and experience** using **Retrieval-Augmented Generation (RAG)**.
@@ -112,7 +113,7 @@ So ngrok acts as the bridge.
 Streamlit Cloud → ngrok URL → your laptop → FastAPI → Ollama → RAG
 <!--backend url: https://pagan-wildcard-virtual.ngrok-free.dev/chat" to checkon browser backend url:https://pagan-wildcard-virtual.ngrok-free.dev/chat?query=hello"-->
 backend url:https://pagan-wildcard-virtual.ngrok-free.dev/chat
-live demo url(frontend)
+live demo url(frontend) :https://pagan-wildcard-virtual.ngrok-free.dev/chat?query=hello
 
 
 ## ▶️ How to Run
